@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+ body h1{
+    margin:20px auto;
+}
+.search-container{
+    margin: 20px 10px;
+}
+.input-text{
+    width: 30rem;
+    border: 2px solid grey;
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.button1{
+    width: auto;
+    border: none;
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 6px;
+    background:rgb(84, 19, 122);
+    color: white;
+}
+.card{
+    width: 35rem;
+    padding: 10px;
+    margin: 50px  auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+.card:hover{
+    rotate: -5deg;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
+.img img {
+    width: 6rem;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button2 .search-followers{
+    width: auto;
+    border: none;
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 6px;
+    background: rgb(84, 19, 122);
+    color: white;
+}
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* border: 2px solid black; */
+}
+.para h1{
+    margin: auto auto 10px 10px;
+}
+.para p{
+    margin: auto auto 10px -15px;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+@media  screen and (max-width:769px) {
+    .card{
+        width: 100px;
+        margin: auto;
+    }
+    .search-container{
+        margin: auto 10px;
+        width: 100%;
+    }
+    .input-text{
+        width: auto;
+        margin: 10px;
+    }
+    .profile-container{
+        width: 100%;
+        margin: auto;
+    }
+}
